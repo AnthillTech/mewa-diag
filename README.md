@@ -15,7 +15,7 @@ Usage: python mewa-diag.py { -s <server_url> } <channel_name> <channel_password>
                channel access password set by the channel owner
 
        server_url ::= string, URL
-               if this option is missing the default URL is used: 
+               if this option is missing the default URL is used: "ws://channels.followit24.com/ws"
 
 ```
 

@@ -2,6 +2,7 @@
 Created on Sep 18, 2014
 @author: Piotr Orzechowski
 @copyright: Anthill Technology
+@version: 1.0
 '''
 
 import sys
