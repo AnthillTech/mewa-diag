@@ -159,7 +159,7 @@ def main():
             exit(1)
     
     for i in range(0,len(g_Devices)):
-        printIndented(0, g_Devices[i])
+        printIndented(0, "\n" + g_Devices[i])
         displayServices(g_Devices[i])
 
     print "\n"
