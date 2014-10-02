@@ -84,7 +84,8 @@ def printIndented(level,text):
         for i in range (0,level-1):
             prefix = prefix + '    '
 
-        prefix = prefix + unichr(9492) + unichr(9472)
+        #prefix = prefix + unichr(9492) + unichr(9472)
+        prefix = prefix +  "|-"
         print prefix+text 
 
 
@@ -145,7 +146,7 @@ def main():
         time.sleep(0.5)
     
     if g_ConnectFlag[0] == 'ok':
-        print "\nConnected to channel '%s', discovering devices and their services...\n" % channel_name
+        print "\nConnected to channel '%s', discovering devices and their services..." % channel_name
     elif g_ConnectFlag[0] == 'error':
         print g_ConnectFlag
    
